@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "3bf91156-834a-4fad-94d1-e6c275ec138d",
+		"name": "secure chat",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8228191"
+	},
+	"item": [
+		{
+			"name": "send message",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost?data=hello world!",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"query": [
+						{
+							"key": "data",
+							"value": "hello world!"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
